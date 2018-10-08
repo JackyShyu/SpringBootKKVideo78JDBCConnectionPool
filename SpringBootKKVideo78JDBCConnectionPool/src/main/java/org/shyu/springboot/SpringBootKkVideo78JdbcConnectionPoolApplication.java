@@ -10,8 +10,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootKkVideo78JdbcConnectionPoolApplication implements CommandLineRunner{
 	
-	@Autowired
-	private DataSource dataSource;
+	//@Autowired
+	//private DataSource dataSource;
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootKkVideo78JdbcConnectionPoolApplication.class, args);		
@@ -19,6 +19,6 @@ public class SpringBootKkVideo78JdbcConnectionPoolApplication implements Command
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("DataSource====" + dataSource);
+		//System.out.println("DataSource====" + dataSource);
 	}
 }
